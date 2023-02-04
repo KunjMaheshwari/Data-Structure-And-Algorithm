@@ -7,7 +7,7 @@ public class Spiralmatrix {
 
         while (startrow <= endrow && startcolumn <= endcolumn) {
             // top boundary
-            for (int j = startcolumn; j <= endcolumn; j++) {
+            for (int j = startcolumn; j <= endcolumn; j++) {   // first row mai starting row constant hai mtlb i move nhi kr rha isliye j se start krenge. aur jo bhi constant hota hai usse matrix ke saath neeche print krte hai. saath mai moving variable i ya j ko krte hai. 
                 System.out.print(matrix[startrow][j] + " ");
             }
             // right boundary
