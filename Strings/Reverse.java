@@ -20,3 +20,4 @@ public class Reverse {
         System.out.println(reversing(str));
     }
 }
+// Time complexity of the code is O(n)
