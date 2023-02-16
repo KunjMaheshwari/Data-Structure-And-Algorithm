@@ -1,0 +1,2 @@
+In Bit Manipulation, To find whether the last bit is 0 or 1, We can perform the AND (i.e.&) Operation with 1 (i.e. 001).
+If we want to SWAP the numbers, then we will do XOR (i.e.^) Operation 3 times. 
