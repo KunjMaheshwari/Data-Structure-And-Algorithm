@@ -25,8 +25,10 @@ public class Constructor {
 class Student {
     String name;
     int rollnumber;
+    String password;
 
-    Student() {
+    Student() { // Here we named the constructor Student() coz the class name and constructor
+                // name is always same.
         // This is the non parameterized constructor.
     }
 
